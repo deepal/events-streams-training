@@ -1,0 +1,15 @@
+{
+  "name": "events-streams-training",
+  "version": "1.0.0",
+  "description": "Training Materials for Events and Streams workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepal Jayasekara",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.2",
+    "express": "^4.17.1"
+  }
+}
