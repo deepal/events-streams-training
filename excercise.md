@@ -17,9 +17,10 @@ We will be using a popular npm module called [`chokidar`](https://www.npmjs.com/
 
 - You can use `chokidar.watch` function which returns an EventEmitter instance. Whenever a new file is added to `source` directory, this event emitter instance will emit `add` with new file name as the event payload.
 
-### Next Steps:
+## Challenges for adventurous developers:
 
-- How can we sync changes to existing files?
-- How can we sync file renames?
-- How can we sync file deletions?
-- **Challenge for Code Ninjas**: How can implement a bi-directional sync (and avoid infinite loops)?
+- Sync changes to existing files in source directory
+- Sync file renames in source directory
+- Sync file deletions in source directory
+- **[Challenge for Ninjas]** Implement bidirectional sync between two directories (`source` <-> `destination`)
+    - Note: You need to take care to avoid infinite sync loops
