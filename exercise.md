@@ -1,6 +1,6 @@
 # Implementing a simple file sync utility
 
-The goal of this excercise is to understand Event Emitter and Streams.
+The goal of this exercise is to understand Event Emitter and Streams.
 
 ### Task: 
 Implement a simple tool which syncs files between two directories (from `source` to `destination`). Whenever a new file is added to the `source` directory, it needs to be synced to the `destination` directory with the same file name. Your program should continuously watch the `source` directory and sync any new files to `destination` until you close the program (e.g, ctrl+c).
