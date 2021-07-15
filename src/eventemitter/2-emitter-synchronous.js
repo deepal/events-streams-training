@@ -1,7 +1,7 @@
 const EventEmitter = require("events");
 const ee = new EventEmitter();
 
-const HELLO_EVENT = 'Hello'
+const HELLO_EVENT = 'hello'
 
 ee.on(HELLO_EVENT, (message) => {
   console.log(`handler1: received hello: ${message}`);
