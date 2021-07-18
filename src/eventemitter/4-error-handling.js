@@ -3,4 +3,4 @@ const ee = new EventEmitter();
 
 // TODO: write your handlers here
 
-ee.emit("error", new Error(''));
+ee.emit("error", new Error('computer says no'));

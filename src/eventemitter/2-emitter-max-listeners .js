@@ -5,7 +5,7 @@ ee.on("hello", (message) => {
   console.log(`Received hello: ${message}`);
 });
 
-ee.setMaxListeners(5) // set maximum listeners to 15
+ee.setMaxListeners(5) // set maximum listeners to 5
 
 ee.on('hello', () => {})
 // TODO: add more listeners here

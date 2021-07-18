@@ -1,8 +1,8 @@
 const EventEmitter = require("events");
-const ee = new EventEmitter();
+const doggo = new EventEmitter();
 
-ee.on("hello", (message) => {
+doggo.on("wuff", (message) => {
   // TODO: write your code here
 });
 
-ee.emit("hello", "Hey there!");
+doggo.emit("wuff", "Hello human!");
