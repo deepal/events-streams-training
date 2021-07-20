@@ -13,7 +13,7 @@
             ],
             "runtimeArgs": ["--trace-warnings"],
             "program": "${file}",
-            "outputCapture": "console",
+            "outputCapture": "std",
             "internalConsoleOptions": "openOnSessionStart",
             "console": "internalConsole"
         }
