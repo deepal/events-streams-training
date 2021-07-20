@@ -6,7 +6,7 @@ function getAbsolutePath(fileName) {
   return path.join(__dirname, '../../data', fileName)
 }
 
-app.get("/file/:filename", (req, res) => {
+app.post("/file/:filename", (req, res) => {
   // TODO: write your code here
 });
 
