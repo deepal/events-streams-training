@@ -2,7 +2,9 @@ const EventEmitter = require("events");
 const doggo = new EventEmitter();
 
 doggo.on("wuff", (message) => {
-  // TODO: write your code here
+  console.log("hey there doggo! you said: ", message);
 });
 
-doggo.emit("wuff", "Hello human!");
+setTimeout(() => {
+  doggo.emit("wuff", "Hello human!");
+}, 1000)

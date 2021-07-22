@@ -7,7 +7,8 @@ function getAbsolutePath(fileName) {
 }
 
 app.post("/file/:filename", (req, res) => {
-  // TODO: write your code here
+  fs.createReadStream(getAbsolutePath(req.params.filename))
+    .pipe(res)
 });
 
 app.listen(3001, () => console.log("file server is listening..."));

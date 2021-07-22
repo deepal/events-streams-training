@@ -1,3 +1,4 @@
 const fs = require('fs')
 
-// TODO: write your code here
+fs.createReadStream("./data/foo.txt")
+    .pipe(process.stdout)

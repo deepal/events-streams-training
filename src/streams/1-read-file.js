@@ -3,17 +3,17 @@ const fs = require("fs");
 const reader = fs.createReadStream("./data/foo.txt");
 
 reader.on("open", () => {
-  // TODO: write your code here
+  console.log("stream opened!");
 });
 
 reader.on("data", (chunk) => {
-  // TODO: write your code here
+  console.log("got some data: ", chunk.toString());
 });
 
 reader.on("end", () => {
-  // TODO: write your code here
+  console.log("stream ended!");
 });
 
 reader.on("close", () => {
-  // TODO: write your code here
+  console.log("stream closed!");
 });
